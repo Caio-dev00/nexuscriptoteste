@@ -83,9 +83,6 @@ const Conversion = () => {
       try {
         const token = localStorage.getItem("token");
         if (!token) {
-          setFavoriteError(
-            "Você precisa estar logado para ver seus favoritos."
-          );
           return;
         }
 
